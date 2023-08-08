@@ -581,6 +581,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
+  max-height: 200px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1092,6 +1093,11 @@ section {
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
   background-color: #0563bb !important;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-item {
+  max-height: 500px;
+  overflow-y: auto;
 }
 
 .portfolio-details .portfolio-info {
